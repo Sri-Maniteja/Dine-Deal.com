@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="index.css">
+    
+
+    <title>Dine-Deal</title>
+  </head>
+  <body>
+ 
+    
+  <nav>
+    <ul class="nav-flex-row">
+      <li class="nav-item">
+        <a href="about.html" style="font-style:arial;">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="tablebooking.html"style="font-style:arial;">Reservation</a>
+      </li>
+      <li class="nav-item">
+        <a href="menu.html"font-style:arial;">Menu</a>
+      </li>
+      </ul>
+  </nav>
+
+  <section class="section-intro">
+    <header>
+      <img src="logo.png" class="logo">
+
+
+    </header>
+    <h1 style="color: rgb(139, 84, 122);">Dine-Deal</h1>
+
+    <div class="link-to-book-wrapper">
+      <a class="link-to-book" href="tablebooking.html" style="color: rgb(56, 91, 105);">Book a table</a>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <article>
+      <h3>
+          Why our Restaurant?
+      </h3>
+      <p>
+        Our restaurant is a cozy and welcoming establishment that offers a unique dining experience. The menu features a variety of dishes that cater to different tastes, including vegetarian and gluten-free options. The food is made with fresh and high-quality ingredients, sourced locally whenever possible. Our restaurant also offers a full bar with a wide selection of cocktails, wines, and beers. The ambiance is warm and inviting, with comfortable seating and soft lighting. Customers can enjoy their meals in a relaxed atmosphere, perfect for a romantic night out or a casual dinner with friends. The staff is friendly and attentive, providing excellent service and making sure that customers have a pleasant dining experience. Whether it's a special occasion or just a night out, our restaurant is the perfect choice for anyone looking for great food, drinks, and ambiance.
+      </p>
+    </article>
+  </section>
+  <link rel="stylesheet" href='SLIDE/SLIDE1.CSS'/>
+  <div class="slider">
+    <div class="slide">
+      <img src="FOOD1.jpg" alt="Slide 1">
+    </div>
+    <div class="slide">
+      <img src="FOOD2.jpg" alt="Slide 2">
+    </div>
+    <div class="slide">
+      <img src="FOOD4.jpg" alt="Slide 3">
+    </div>
+    <div class="slide">
+      <img src="FOOD5.jpg" alt="Slide 3">
+    </div>
+    <div class="slide">
+      <img src="FOOD3.jpg" alt="Slide 3">
+    </div>
+    <div class="slide">
+      <img src="FOOD6.jpg" alt="Slide 3">
+    </div>
+    <div class="slide">
+      <img src="SLIDE/FOOD8.jpg" alt="Slide 3">
+    </div>
+    <div class="slide">
+      <img src="FOOD10.jpg" alt="Slide 3">
+    </div>
+    <div class="slide">
+      <img src="FOOD7.jpg" alt="Slide 3">
+    </div>
+    <div class="slide">
+      <img src="FOOD9.jpg"Slide 3">
+    </div>
+    </div>
+  
+  <script>
+  var slides = document.querySelectorAll('.slide');
+  var currentSlide = 0;
+  var slideInterval = setInterval(nextSlide, 5000);
+  
+  function nextSlide() {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }
+  </script>
+<div class="container">
+    <div class="row-flex">
+      <div class="flex-column-form">
+        <h3>
+          Make a booking:
+        </h3>
+      <form class="media-centered">
+          <div class="form-group">
+            <p>
+              Leave your number we will call to make a reservation:
+            </p>
+            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter your name" >
+          </div><br>
+          <div class="form-group">
+            <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Enter your phone number">
+          </div><br>
+          <div>
+           <button type="submit" class="btn btn-primary" >submit</button>
+           
+              </form>
+      </div>
+      <div class="opening-time">
+        <h3>
+          Opening times:
+        </h3>
+        <p>
+         <span>Monday—Thursday: 08:00 AM — 22:00 PM</span> 
+         <span>Friday—Saturday: 09:00 AM— 23:00 PM </span>
+         <span>Sunday: 10:00 AM— 17:00 PM</span>
+         </div>
+        </p>
+      <div class="contact-adress">
+        <h3>
+          Contact Us Here:
+        </h3>
+        <p>
+          <span>9963802239,</span>
+          <span>Jubilee Hills,</span>
+          <span>Hyderabad</span>
+        </p>
+      </div>
+    </div>
+    </div>
+</body>
+  
+</html> 

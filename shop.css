@@ -1,0 +1,23 @@
+.restaurant-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .restaurant-details h2 {
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-details h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-details p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  

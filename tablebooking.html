@@ -1,0 +1,91 @@
+<html>
+<head>
+	<title>Table Reservation</title>
+	<style>
+		body {
+			background-image: url(booking.jpeg);
+			background-size: cover;
+			background-position: center;
+			font-family: Arial, sans-serif;
+		}
+		
+		.form-container {
+			margin: 0 auto;
+			max-width: 500px;
+			padding: 20px;
+			background-color: rgba(8, 8, 8, 0.8);
+		    color: #fff;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			text-align: center;
+		}
+		
+		input[type="text"], input[type="email"], input[type="date"], select, textarea {
+			display: block;
+			margin: 10px auto;
+			padding: 10px;
+			width: 100%;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			transition: box-shadow 0.2s;
+		}
+		
+		input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, select:focus, textarea:focus {
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		}
+		
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			cursor: pointer;
+			transition: background-color 0.2s;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="form-container">
+		<h1>Reserve a Date</h1>
+		<form method="post">
+			<label for="name">Name:</label>
+			<input type="text" name="name" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" name="email" required>
+			
+			<label for="date">Date:</label>
+			<input type="date" name="date" required>
+			
+			<label for="time">Time:</label>
+			<select name="time" required>
+				<option value="">--Select Time--</option>
+        <option value="09:00am">09:00am</option>
+        <option value="10:00am">10:00am</option>
+				<option value="11:00am">11:00am</option>
+				<option value="12:00pm">12:00pm</option>
+				<option value="1:00pm">1:00pm</option>
+        <option value="2:00pm">2:00pm</option>
+        <option value="3:00pm">3:00pm</option>
+        <option value="4:00pm">11:00am</option>
+        <option value="5:00pm">11:00am</option>
+				<option value="6:00pm">6:00pm</option>
+				<option value="7:00pm">7:00pm</option>
+				<option value="8:00pm">8:00pm</option>
+			</select>
+			
+			<label for="guests">Number of Guests:</label>
+			<input type="text" name="guests" required>
+			
+			<label for="comments">Comments/Requests:</label>
+      <input type="text" name="Requests" >

@@ -1,0 +1,36 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .menu-item {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .menu-item h3 {
+    margin-bottom: 10px;
+  }
+  
+  .menu-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-name {
+    flex-grow: 1;
+  }
+  
+  .menu-item-price {
+    font-weight: bold;
+  }
+  
